@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import masaimg from '../public/assets/projects/Masa.jpg';
+import masaimg from '../assets/projects/Masa.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { FaGithub, FaMedium, FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 import Link from 'next/link';
