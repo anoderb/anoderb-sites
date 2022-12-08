@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/Sui.jpg';
+import cryptoImg from '../assets/projects/Sui.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { FaGithub, FaMedium, FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 import Link from 'next/link';
