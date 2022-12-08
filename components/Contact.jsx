@@ -30,7 +30,7 @@ const Contact = () => {
                 <h2 className='py-2'>Anoderb For Everyone</h2>
                 <p></p>
                 <p className='py-4'>
-                 Let's join the community to learn together and gain other experiences.
+                 Lets join the community to learn together and gain other experiences.
                 </p>
               </div>
               <div>
