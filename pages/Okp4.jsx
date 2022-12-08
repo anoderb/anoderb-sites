@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/Okp4.jpg';
+import propertyImg from '../assets/projects/Okp4.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { FaGithub, Fachrome, FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 import Link from 'next/link';
