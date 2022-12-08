@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ConstructionImg from '../public/assets/Construction.png';
+import ConstructionImg from '../assets/Construction.png';
 import Footer from '../components/Footer'
 
 const Construction = () => {
