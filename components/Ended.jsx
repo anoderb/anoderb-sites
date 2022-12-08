@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
-import Aptos from '../public/assets/Ended/Aptos.png';
-import Forta from '../public/assets/Ended/Forta.png';
-import Layer from '../public/assets/Ended/Layer.png';
-import Nym from '../public/assets/Ended/Nym.png';
-import Rebus from '../public/assets/Ended/Rebus.png';
-import Stride from '../public/assets/Ended/Stride.png';
-import Subquery from '../public/assets/Ended/Subquery.png';
-import Subspace from '../public/assets/Ended/Subspace.png';
-import Tidechain from '../public/assets/Ended/Tidechain.png';
+import Aptos from '../assets/Ended/Aptos.png';
+import Forta from '../assets/Ended/Forta.png';
+import Layer from '../assets/Ended/Layer.png';
+import Nym from '../assets/Ended/Nym.png';
+import Rebus from '../assets/Ended/Rebus.png';
+import Stride from '../assets/Ended/Stride.png';
+import Subquery from '../assets/Ended/Subquery.png';
+import Subspace from '../assets/Ended/Subspace.png';
+import Tidechain from '../assets/Ended/Tidechain.png';
 
 const Ended = () => {
   return (
