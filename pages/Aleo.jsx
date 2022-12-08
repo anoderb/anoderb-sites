@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/Aleo.jpeg';
+import twitchImg from '../assets/projects/Aleo.jpeg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { FaGithub, FaMedium, FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 import Link from 'next/link';
