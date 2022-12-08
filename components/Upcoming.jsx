@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import dydx from '../public/assets/Upcoming/Dydx.png';
-import entropy from '../public/assets/Upcoming/Entropy.png';
-import fuel from '../public/assets/Upcoming/Fuel.png';
-import lava from '../public/assets/Upcoming/Lava.png';
-import monad from '../public/assets/Upcoming/Monad.png';
-import namada from '../public/assets/Upcoming/Namada.png';
-import neutron from '../public/assets/Upcoming/Neutron.png';
-import saga from '../public/assets/Upcoming/Saga.png'
+import dydx from '../assets/Upcoming/Dydx.png';
+import entropy from '../assets/Upcoming/Entropy.png';
+import fuel from '../assets/Upcoming/Fuel.png';
+import lava from '../assets/Upcoming/Lava.png';
+import monad from '../assets/Upcoming/Monad.png';
+import namada from '../assets/Upcoming/Namada.png';
+import neutron from '../assets/Upcoming/Neutron.png';
+import saga from '../assets/Upcoming/Saga.png'
 
 const Upcoming = () => {
   return (
