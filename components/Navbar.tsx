@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaDiscord, FaTelegram, FaYoutube } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaTwitter, FaInstagram, FaDiscord, FaTelegram, FaYoutube } from 'react-icons/fa';
+
+
 // import { useRouter } from 'next/router';
-import NavLogo from '../assets/navLogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -19,10 +19,10 @@ const Navbar = () => {
 
   // useEffect(() => {
   //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
+  //     router.asPath === '/Okp4' ||
+  //     router.asPath === '/Sui' ||
+  //     router.asPath === '/Masa' ||
+  //     router.asPath === '/Aleo'
   //   ) {
   //     setNavBg('transparent');
   //     setLinkColor('#ecf0f3');
@@ -60,7 +60,7 @@ const Navbar = () => {
         <Link href='/'>
 
           <Image
-            src={NavLogo}
+            src={'/assets/Navlogo.png'}
             alt='/'
             width='125'
             height='50'
@@ -121,7 +121,7 @@ const Navbar = () => {
               <Link href='/'>
 
                 <Image
-                  src={NavLogo}
+                  src={'/assets/Navlogo.png'}
                   width='87'
                   height='35'
                   alt='/'

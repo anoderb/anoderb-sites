@@ -1,24 +1,23 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../assets/projects/Okp4.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { FaGithub, Fachrome, FaTelegram, FaTwitter, FaDiscord} from 'react-icons/fa';
 import Link from 'next/link';
 import Footer from '../components/Footer'
 
-const property = () => {
+const okp = () => {
   return (
     <div className='w-full'>
-      <div className='w-screen h-[50vh] relative'>
-        <div className='absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10' />
+      <div className='w-screen h-[30vh] relative'>
+        <div className='absolute top-10 left-0 w-full h-auto bg-black/70 z-10' />
         <Image
-          className='absolute z-1'
+          className='relative flex items-center justify-center h-auto w-full shadow-xl'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={'/assets/projects/Okp.png'}
           alt='/'
         />
-        <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
+        <div className='absolute top-[80%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>OKP4</h2>
           <h3>Nodes Testnet</h3>
         </div>
@@ -85,4 +84,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default okp;

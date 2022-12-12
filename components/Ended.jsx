@@ -1,14 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Aptos from '../assets/Ended/Aptos.png';
-import Forta from '../assets/Ended/Forta.png';
-import Layer from '../assets/Ended/Layer.png';
-import Nym from '../assets/Ended/Nym.png';
-import Rebus from '../assets/Ended/Rebus.png';
-import Stride from '../assets/Ended/Stride.png';
-import Subquery from '../assets/Ended/Subquery.png';
-import Subspace from '../assets/Ended/Subspace.png';
-import Tidechain from '../assets/Ended/Tidechain.png';
 
 const Ended = () => {
   return (
@@ -22,7 +13,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Aptos} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Aptos.png'} 
+                width='64'
+                height='64'
+                alt='/'
+                />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>APTOS</h3>
@@ -32,7 +27,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Forta} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Forta.png'} 
+                width='64' 
+                height='64' 
+                alt='/' 
+                />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>FORTA</h3>
@@ -42,7 +41,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Layer} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Layer.png'} 
+                width='64' 
+                height='64'
+                 alt='/' 
+                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>LAYER ZERO</h3>
@@ -52,7 +55,10 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Nym} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Nym.png'} 
+                width='64' 
+                height='64' 
+                alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>NYM</h3>
@@ -62,7 +68,10 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Rebus} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Rebus.png'} 
+                width='64' 
+                height='64' 
+                alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>REBUS</h3>
@@ -72,7 +81,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Stride} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Stride.png'} 
+                width='64' 
+                height='64'
+                 alt='/' 
+                 />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>STRIDE</h3>
@@ -82,7 +95,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Subquery} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Subquery.png'} 
+                width='64' 
+                height='64' 
+                alt='/' 
+                />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>SUBQUERY</h3>
@@ -92,7 +109,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Subspace} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Subspace.png'} 
+                width='64' 
+                height='64' 
+                alt='/' 
+                />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>SUBSPACE</h3>
@@ -102,7 +123,11 @@ const Ended = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Tidechain} width='64px' height='64px' alt='/' />
+                <Image src={'/assets/Ended/Tidechain.png'} 
+                width='64' 
+                height='64' 
+                alt='/' 
+                />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>TIDECHAIN</h3>

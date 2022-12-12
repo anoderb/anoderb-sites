@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ConstructionImg from '../assets/Construction.png';
 import Footer from '../components/Footer'
 
 const Construction = () => {
@@ -23,7 +22,12 @@ const Construction = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={ConstructionImg} className='rounded-xl' alt='/' />
+          <Image src={'/assets/Construction.png'} 
+          width='500'
+          height='500'
+          className='rounded-xl'
+          alt='/' 
+          />
         </div>
       </div>
     </div>

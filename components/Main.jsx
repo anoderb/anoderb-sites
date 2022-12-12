@@ -20,7 +20,7 @@ const Main = () => {
           we always try to provide  to the best for the community.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-          <a
+                  <a
                     href='https://twitter.com/anoderb_id'
                     target='_blank'
                     rel='noreferrer'

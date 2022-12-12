@@ -5,7 +5,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaTwitter, FaInstagram, FaDiscord, FaTelegram, FaYoutube } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../assets/Contact.jpg';
 
 const Contact = () => {
   return (
@@ -22,7 +21,9 @@ const Contact = () => {
               <div>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
+                  src={'/assets/Contact.png'}
+                  width='500'
+                  height={'500'}
                   alt='/'
                 />
               </div>
@@ -34,8 +35,8 @@ const Contact = () => {
                 </p>
               </div>
               <div>
-                <p className='uppercase pt-8'>Join Community</p>
-                <div className='flex items-center justify-between py-4'>
+                <p className='uppercase pt-9'>Join Community</p>
+                <div className='flex items-center justify-between py-2'>
                   <a
                     href='https://twitter.com/anoderb_id'
                     target='_blank'
