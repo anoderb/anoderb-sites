@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
 	return <>
-        <div className="bg-[#ffffff] h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-10">
+        <div className="bg-[#ecf0f3] h-full w-full flex md:flex-row flex-col justify-around items-start p-3">
             <div className="p-2 ">
                 <ul>
                     <p className="text-[#292444] font-bold text-3xl pb-6">
@@ -80,12 +80,9 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center  p-3 bg-[#E94A66]">
-            <h1 className=" text-[#292444] text-sm font-semibold ">
-                © 2021-2022 All rights reserved | Powered by{" "}
-                <span className="hover:text-[#d2cbfc] font-bold cursor-pointer hover:scale-110 ease-in duration-300">
-                    Anoderb{" "}
-                </span>
+        <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20bg-[#ecf0f3]">
+            <h1 className=" text-[#292444] text-sm font-semibold text-center ">
+                © 2019-2022 All rights reserved | Powered by Anoderb
             </h1>
         </div>
     </>;

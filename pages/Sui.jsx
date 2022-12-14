@@ -36,14 +36,14 @@ const crypto = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Guide</button>
+            <button className='px-8 py-2 mt-4 mr-8 hover:scale-110 ease-in duration-300'>Guide</button>
           </a>
           <a
             href='https://sui.io/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Source</button>
+            <button className='px-8 py-2 mt-4 hover:scale-110 ease-in duration-300'>Source</button>
           </a>
 
         </div>

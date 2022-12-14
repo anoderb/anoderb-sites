@@ -58,16 +58,14 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
         <Link href='/'>
-
           <Image
-            src={'/assets/Navlogo.png'}
+            src={'/assets/navlogo.png'}
             alt='/'
             width='125'
             height='50'
             className='cursor-pointer'
           />
-
-        </Link>
+           </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b hover:scale-110 ease-in duration-300 hover:text-[#E94A66] cursor-pointer'>
@@ -119,7 +117,6 @@ const Navbar = () => {
           <div>
             <div className='flex w-full items-center justify-between '>
               <Link href='/'>
-
                 <Image
                   src={'/assets/Navlogo.png'}
                   width='87'
