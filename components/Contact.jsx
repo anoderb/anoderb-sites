@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className='py-4'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 dark:shadow-black rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -42,7 +42,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaTwitter />
                     </div>
                   </a>
@@ -51,7 +51,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaGithub />
                     </div>
                   </a>
@@ -60,7 +60,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaTelegram />
                     </div>
                   </a>
@@ -69,7 +69,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaInstagram />
                     </div>
                   </a>
@@ -78,7 +78,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaDiscord />
                     </div>
                   </a>
@@ -87,7 +87,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaYoutube />
                     </div>
                   </a>
@@ -165,7 +165,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
 
-            <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
               <HiOutlineChevronDoubleUp
                 className='text-[#E94A66]'
                 size={30}

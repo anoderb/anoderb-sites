@@ -6,16 +6,16 @@ import { FaGithub, FaLinkedinIn, FaTwitter, FaInstagram, FaDiscord, FaTelegram, 
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div id='home' className='w-full h-screen text-center dark:text-[#ecf0f3]'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
             GET&#39;S OTHER EXPERIENCE WITH US
           </p>
-          <h1 className='py-4 text-gray-700'>
+          <h1 className='py-4'>
             Hi, WELCOME TO <span className='text-[#E94A66]'> ANODERB</span>
           </h1>
-          <h1 className='py-2 text-gray-700'>CRYPTO ENTHUSIASTS AND NODE OPRATORS</h1>
+          <h1 className='py-2'>CRYPTO ENTHUSIASTS AND NODE OPRATORS</h1>
           <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
           we always try to provide  to the best for the community.
           </p>
@@ -25,7 +25,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66] '>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66] '>
                       <FaTwitter />
                     </div>
                   </a>
@@ -34,7 +34,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaGithub />
                     </div>
                   </a>
@@ -43,7 +43,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaTelegram />
                     </div>
                   </a>
@@ -52,7 +52,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaInstagram />
                     </div>
                   </a>
@@ -61,7 +61,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaDiscord />
                     </div>
                   </a>
@@ -70,7 +70,7 @@ const Main = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 dark:shadow-black p-3 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-[#E94A66]'>
                       <FaYoutube />
                     </div>
                   </a>

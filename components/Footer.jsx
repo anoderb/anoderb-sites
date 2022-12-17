@@ -11,17 +11,17 @@ import { FaGithub } from "react-icons/fa";
 
 function Footer() {
 	return <>
-        <div className="bg-[#ecf0f3] h-full w-full flex md:flex-row flex-col justify-around items-start p-3">
+        <div className="bg-[#ecf0f3] text-[#1F1A31] dark:bg-[#1F1A31] dark:text-[#ecf0f3] h-full w-full flex md:flex-row flex-col justify-around items-start p-3">
             <div className="p-2 ">
                 <ul>
-                    <p className="text-[#292444] font-bold text-3xl pb-6">
+                    <p className="text-[#ecf0f3] font-bold text-3xl pb-6">
                         Anoderb<span className="text-[#E94A66]">Validator</span>
                     </p>
                 </ul>
             </div>
-            <div className="p-2">
+            <div className="p-2 bg-[#ecf0f3] text-[#1F1A31] dark:bg-[#1F1A31] dark:text-[#ecf0f3]">
                 <ul>
-                    <p className="text-gray-800 font-bold text-2xl pb-4">Project</p>
+                    <p className=" font-bold text-2xl pb-4">Project</p>
                     <Link href='/Construction' legacyBehavior>
                         <p className="text-gray-500 text-sm pb-2 font-semibold  hover:scale-110 ease-in duration-300 hover:text-[#E94A66]">
                             Airdrops
@@ -41,7 +41,7 @@ function Footer() {
             </div>
             <div className="p-2">
                 <ul>
-                    <p className="text-gray-800 font-bold text-2xl pb-4">Service</p>
+                    <p className=" font-bold text-2xl pb-4">Service</p>
                     <Link href='/Construction' legacyBehavior>
                         <p className="text-gray-500 text-sm pb-2 font-semibold  hover:scale-110 ease-in duration-300 hover:text-[#E94A66]">
                             Stake
@@ -61,7 +61,7 @@ function Footer() {
             </div>
             <div className="p-2">
                 <ul>
-                    <p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
+                    <p className=" font-bold text-2xl pb-4">Support</p>
                     <Link href='/Construction' legacyBehavior>
                         <p className="text-gray-500 text-sm pb-2 font-semibold  hover:scale-110 ease-in duration-300 hover:text-[#E94A66]">
                             About
@@ -80,8 +80,8 @@ function Footer() {
                 </ul>
             </div>
         </div>
-        <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20bg-[#ecf0f3]">
-            <h1 className=" text-[#292444] text-sm font-semibold text-center ">
+        <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+            <h1 className=" text-sm font-semibold text-center ">
                 © 2019-2022 All rights reserved | Powered by Anoderb
             </h1>
         </div>

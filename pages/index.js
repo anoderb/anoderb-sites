@@ -14,6 +14,7 @@ export default function Home() {
     
     <div>
       <Head>
+        <meta name="google-site-verification" content="5fYyGN4n44zr_ZstKM0wBqvZAQm-proX119wFMMiBeA" />
         <title>Anoderb Validator</title>
         <meta name="description" content="CRYPTO ENTHUSIASTS AND NODE OPRATORS" />
         <link rel="icon" href="/public/favicon/favicon.ico" />
